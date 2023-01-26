@@ -4,7 +4,7 @@ import Todo from "./components/Todo";
 
 function App() {
   const todos = [
-    { id: 1, title: "wash dieshes", completed: false },
+    { id: 1, title: "wash dishes", completed: false },
     { id: 2, title: "clean room", completed: true },
   ];
 
