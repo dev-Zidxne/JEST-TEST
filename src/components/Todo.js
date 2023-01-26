@@ -1,7 +1,8 @@
 import React from "react";
 
-function Todo() {
-  return <div data-testid="todo-1">Todoooo</div>;
+function Todo({ todo }) {
+  const { id, title, completed } = todo;
+  return <div data-testid="todo-1">{title}</div>;
 }
 
 export default Todo;
